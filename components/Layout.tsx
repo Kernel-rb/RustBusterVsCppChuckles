@@ -1,3 +1,4 @@
+// components/Layout.tsx
 import React, { FC, ReactNode, useState, useEffect } from "react";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import { AvailableTheme } from "@/types";

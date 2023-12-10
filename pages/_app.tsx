@@ -1,3 +1,4 @@
+// pages/_app.tsx
 import React, { FC } from "react";
 import { AppProps } from "next/app";
 import { config } from "@fortawesome/fontawesome-svg-core";

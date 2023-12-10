@@ -1,3 +1,4 @@
+// components/Answer.tsx
 import React, { FC, useState } from "react";
 
 const Answer: FC = () => {
