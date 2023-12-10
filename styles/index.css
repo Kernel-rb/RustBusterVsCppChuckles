@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+.theme-dark {
+  --primary: hsl(0, 0%, 100%);
+  --secondary: hsl(0, 0%, 5%);
+}
+
+.theme-light {
+  --primary: rgb(13, 13, 13);
+  --secondary: hsl(0, 0%, 100%);
+}
+
+@import 'tailwindcss/utilities';
