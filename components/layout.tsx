@@ -7,7 +7,6 @@ type Props = {
   children: ReactNode;
 };
 
-
 const Layout: FC<Props> = ({ children }) => {
   const [theme, setTheme] = useState<AvailableTheme>("light");
   useEffect(() => {

@@ -16,7 +16,6 @@ const SEO: DefaultSeoProps = {
   },
   twitter: {
     handle: "@Kernelrb",
-    
   },
 };
 
