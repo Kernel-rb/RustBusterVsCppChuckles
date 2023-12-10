@@ -1,9 +1,8 @@
-// pages/_app.tsx
 import React, { FC } from "react";
 import { AppProps } from "next/app";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import "../styles/index.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Layout from "../components/Layout";
@@ -23,7 +22,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => (
     <Layout>
       <Component {...pageProps} />
       <div className="footer">
-        <FontAwesomeIcon icon={faGithub} /> By <span>kernel rb</span>, Inspired
+        <FontAwesomeIcon  /> By <span>kernel rb</span>, Inspired
         by <span>AlaaZorkane</span>
       </div>
     </Layout>
@@ -49,3 +48,4 @@ const App: FC<AppProps> = ({ Component, pageProps }) => (
 );
 
 export default App;
+
